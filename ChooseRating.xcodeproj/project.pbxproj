@@ -15,6 +15,7 @@
 		F8C4DE18202D498400EA959E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C4DE17202D498400EA959E /* main.m */; };
 		F8C4DE22202D498400EA959E /* ChooseRatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C4DE21202D498400EA959E /* ChooseRatingTests.m */; };
 		F8C4DE2D202D498400EA959E /* ChooseRatingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C4DE2C202D498400EA959E /* ChooseRatingUITests.m */; };
+		F8C4DE3C202D49BE00EA959E /* RatingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C4DE3B202D49BE00EA959E /* RatingTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F8C4DE28202D498400EA959E /* ChooseRatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseRatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C4DE2C202D498400EA959E /* ChooseRatingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseRatingUITests.m; sourceTree = "<group>"; };
 		F8C4DE2E202D498400EA959E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C4DE3A202D49BE00EA959E /* RatingTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingTool.h; sourceTree = "<group>"; };
+		F8C4DE3B202D49BE00EA959E /* RatingTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		F8C4DE07202D498400EA959E /* ChooseRating */ = {
 			isa = PBXGroup;
 			children = (
+				F8C4DE3A202D49BE00EA959E /* RatingTool.h */,
+				F8C4DE3B202D49BE00EA959E /* RatingTool.m */,
 				F8C4DE08202D498400EA959E /* AppDelegate.h */,
 				F8C4DE09202D498400EA959E /* AppDelegate.m */,
 				F8C4DE0B202D498400EA959E /* ViewController.h */,
@@ -267,6 +272,7 @@
 			files = (
 				F8C4DE0D202D498400EA959E /* ViewController.m in Sources */,
 				F8C4DE18202D498400EA959E /* main.m in Sources */,
+				F8C4DE3C202D49BE00EA959E /* RatingTool.m in Sources */,
 				F8C4DE0A202D498400EA959E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
