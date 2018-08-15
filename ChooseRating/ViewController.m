@@ -21,6 +21,9 @@
     RatingTool *tool = [[RatingTool alloc]initWithFrame:CGRectMake(30, 100, 300, 100)  ratingType:RatingTypeSlidingAndHalf starsNumber:6 currentRating:3.001 ratingSize:CGSizeMake(30, 50) fromLeft:0 setImageNormal:@"star_normal" halfSelected:@"star_halfselect" fullSelected:@"star_allselect" WithDelegate:self];
     [self.view addSubview:tool];
     
+    UIView *redView = [[UIView alloc]initWithFrame:CGRectMake(50, 200, 100, 50)];
+    redView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:redView];
 }
 
 - (void)ratingTool:(RatingTool *)tool currentRating:(float)rating {
